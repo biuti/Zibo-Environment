@@ -86,6 +86,14 @@ This are the packets we need to download to create the perfect (in my opinion) e
     ![ZiboCabinTemp](pictures/image-16.png)
 
 6. ### NOAAWeather script
+    This plugin has been originally developed for X-Plane 11, to add _"Real Weather"_ getting info from NOAA. Now X-Plane has its own Real Weather, but this plugin is still very useful:
+    - Adds snow cover using GFS data information
+    - monitors XP12 real weather behavior
+    - METAR query window that displays both from XP12 Real Weather and chosen source (NOAA, IVAO or VATSIM servers)
+
+    ![NOAAWeather snow cover](pictures/image-19.png)
     - [download latest version](https://github.com/biuti/XplaneNoaaWeather/releases). At the time I wrote this guide, latest version for XP12.4 is still in beta, but it's stable.
     - unzip the archive and move the file _PI_noaaWeather.py_ and the _noaaweather_ folder to the PythonPlugins folder.\
     ![NOAAWeather](pictures/image-17.png)
+    - you will have three widget
+    ![NOAAWeather widgets](pictures/image-18.png)
