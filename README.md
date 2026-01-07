@@ -95,5 +95,12 @@ This are the packets we need to download to create the perfect (in my opinion) e
     - [download latest version](https://github.com/biuti/XplaneNoaaWeather/releases). At the time I wrote this guide, latest version for XP12.4 is still in beta, but it's stable.
     - unzip the archive and move the file _PI_noaaWeather.py_ and the _noaaweather_ folder to the PythonPlugins folder.\
     ![NOAAWeather](pictures/image-17.png)
-    - you will have three widget
-    ![NOAAWeather widgets](pictures/image-18.png)
+    - you will have three widget available in the NOAAWeather menu:
+
+        - Weather Info: the monitor widget where you can follow all Real Weather parameters, values, created layers
+        - Metar Query: a widget to request METAR for a ICAO code, it will show the METAR Real Weather is using, and the one from a selectable source among NOAA, IVAO or VATSIM
+        - Configuration: the settings widget, I recommend to use the settings in the picture, just choose METAR source you prefer and the METAR decoding feature if you need it
+
+    ![alt text](pictures/image-18.png)
+
+7. ### Terrain Radar
