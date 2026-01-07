@@ -30,6 +30,9 @@ you need to register, and you'll get a LOGON code by email ![alt text](pictures/
 
 ## Addons
 This are the packets we need to download to create the perfect (in my opinion) environment to use Zibo at its maximum potentiality:
+
+## Python plugins
+
 1. ### XPPython3
     this is the foundation of the whole structure. Since version 4.5.x it does not rely on Python installation on the Host OS, so installation became straight forward:
     - [download the stable version](https://xppython3.readthedocs.io/en/latest/usage/installation_plugin.html#) **for your OS** from the plugin website
@@ -95,12 +98,39 @@ This are the packets we need to download to create the perfect (in my opinion) e
     - [download latest version](https://github.com/biuti/XplaneNoaaWeather/releases). At the time I wrote this guide, latest version for XP12.4 is still in beta, but it's stable.
     - unzip the archive and move the file _PI_noaaWeather.py_ and the _noaaweather_ folder to the PythonPlugins folder.\
     ![NOAAWeather](pictures/image-17.png)
-    - you will have three widget available in the NOAAWeather menu:
+    - you will have three widget available in the XP NOAAWeather menu:
 
         - Weather Info: the monitor widget where you can follow all Real Weather parameters, values, created layers
         - Metar Query: a widget to request METAR for a ICAO code, it will show the METAR Real Weather is using, and the one from a selectable source among NOAA, IVAO or VATSIM
         - Configuration: the settings widget, I recommend to use the settings in the picture, just choose METAR source you prefer and the METAR decoding feature if you need it
 
-    ![alt text](pictures/image-18.png)
+    ![NOAAWeather widgets](pictures/image-18.png)
+
+***
+## Standard plugins
 
 7. ### Terrain Radar
+    This plugin adds two features you don\'t want to miss:
+
+    - a synthetic terrain radar, based on geodata
+    - a Vertical Situation Display (VSD)
+
+    ![VSD](pictures/image-20.png)
+
+    - [download latest version](https://forums.x-plane.org/files/file/37864-terrain-radar-vertical-situation-display/) from the website
+    - unzip the archive and move the _TerrainRadar_ folder in _plugins_ folder\
+    ![alt text](pictures/image-21.png)
+
+8. ### X-RAAS2
+    this plugin add the RAAS functionality
+
+    - [download the latest version](https://github.com/olivierbutler/X-RAAS2-xp12/releases) of the plugin
+    - unzip the archive and move _X-RAAS2_ folder in _plugins_ folder\
+    ![X-RAAS2](pictures/image-22.png)
+
+    - X-RAAS2 will create the necessary files in _preferences_ folder first time XP12 is launched. But I suggest to use this ones, are tested and work very well:
+        - [Zibo configuration](files/X-RAAS_B737-800X.cfg)
+        - [overlay configuration](files/ND_overlays.cfg)
+
+        move both files to XP12 _Output/preferences_ folder
+
