@@ -39,7 +39,8 @@ This are the packets we need to download to create the perfect (in my opinion) e
     - unzip the packet and move XPPython3 folder to X-Plane 12 plugin folder![XPPython3](pictures/image-1.png).\
     If your OS requires, remove Antivirus check on plugin folder
     - >[!IMPORTANT]\
-    start X-Plane 12 and let XPPython3 download all the needed libraries. It will notify when it's done. You can then close X-Plane![XPPython3 downloading](pictures/image-2.png)![XPPython3 download complete](pictures/image-3.png)
+    start X-Plane 12 and let XPPython3 download all the needed libraries. It will notify when it's done. You can then close X-Plane![XPPython3 downloading](pictures/image-2.png)\
+    ![XPPython3 download complete](pictures/image-3.png)
     - XPPython3 should have created a _PythonPlugins_ folder in X-Plane plugin folder. That is where all python scripts need to be installed\
     ![PyhtonPlugins folder](pictures/image-4.png)
 
@@ -107,7 +108,7 @@ This are the packets we need to download to create the perfect (in my opinion) e
     ![NOAAWeather widgets](pictures/image-18.png)
 
 ***
-## Standard plugins
+## Mandatory plugins
 
 7. ### Terrain Radar
     This plugin adds two features you don\'t want to miss:
@@ -129,8 +130,69 @@ This are the packets we need to download to create the perfect (in my opinion) e
     ![X-RAAS2](pictures/image-22.png)
 
     - X-RAAS2 will create the necessary files in _preferences_ folder first time XP12 is launched. But I suggest to use this ones, are tested and work very well:
-        - [Zibo configuration](files/X-RAAS_B737-800X.cfg)
-        - [overlay configuration](files/ND_overlays.cfg)
+        - [Zibo configuration](files/config/X-RAAS_B737-800X.cfg)
+        - [overlay configuration](files/config/ND_overlays.cfg)
 
         move both files to XP12 _Output/preferences_ folder
+
+9. ### Better Pushback Mod
+    this plugin simulates pushback procedures, with ground to cockpit comunications, animations, and many different configurations.
+
+    ![alt text](pictures/image-26.png)
+    ![alt text](pictures/image-27.png)
+
+    - [download the latest version](https://github.com/olivierbutler/BetterPusbackMod/releases) of the plugin
+    - unzip the archive and move _BetterPushback_ folder in _plugins_ folder
+
+    ![BetterPushbackMod](pictures/image-24.png)
+    - as written in the readme, copy the file _BetterPushback_doors.cfg_ from the plugin folder to _Output/preferences_ folder
+    - this are the settings I'm using. As always, YMMV:
+
+    ![BetterPushbackMod settings](pictures/image-25.png)
+
+10. ### AviTab
+    another must have, AviTab is fully integrated in Zibo EFB, and gives a lot of information about airports, procedures, charts, it is able to display pdf files in the EFB.
+![alt text](pictures/image-28.png)
+    - [download the latest version](https://github.com/fpw/avitab/releases) of the plugin
+    - unzip the archive and move _AviTab_ folder in _plugins_ folder\ 
+    ![AviTab](pictures/image-29.png)
+
+***
+## Optional plugins
+
+11. ### AutoDGS
+    a very nice to have, adds marshallers at stands and gates, or the safedock T2 monitor if jetway is available.\
+    It can also be customized to reflect exactly what's available at each stand.
+
+![AutoDGS](pictures/image-30.png)
+    - [download the latest version](https://github.com/hotbso/AutoDGS/releases) of the plugin
+    - unzip the archive and move _AviTab_ folder in _plugins_ folder\ 
+
+12. ### HeadShake
+    This plugin adds in my opinion a lot of immersion, moves the POV using forces, aircraft attitude and / or natural unconscious head movement to keep the horizon.
+    ![HeadShake](pictures/image-31.png)
+
+    - [download the latest version](https://www.simcoders.com/headshake/headshake/) of the plugin
+    - unzip the archive and move _HeadShake_ folder in _plugins_ folder.
+
+    From version 1.14 HeadShake is compatible with new XP12.2+ G-Loaded camera feature.\
+
+    ![alt text](pictures/image-32.png)
+
+    After some tests I choose to use that feature and leave to HeadShake the other effects.\
+    ![HeadShake settings](pictures/image-33.png)
+
+13. ### X-Camera
+    another great add-on, I know most of the features could be achieved also using built-in XP12 camera features, but I find much easier to configure and a lot more integrated with my setup, for example HeadShake.
+    It permits to have Fixed cameras without G-Force or HeadShake effects, fixed zoom values, seamless transition effects.
+
+    ![alt text](pictures/image-34.png)
+
+    - [download the latest version](https://stickandrudderstudios.com/x-camera/) of the plugin
+    - unzip the archive and move _X-Camera_ folder in _plugins_ folder.
+
+    First time you run X-Plane it will create a config file in the aircraft folder. It is highly customizable so at the beginning you will need some time to setup everything.\
+    My suggestion is to [download my X-Camera settings file](files/config/X-Camera_b738.csv) for the Zibo, move it to the Zibo folder, start X-Plane 12, open X-Camera setting widget and start from my settings to create ours.\
+    ![X-Camera](pictures/image-35.png)
+
 
