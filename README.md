@@ -195,4 +195,69 @@ This are the packets we need to download to create the perfect (in my opinion) e
     My suggestion is to [download my X-Camera settings file](files/config/X-Camera_b738.csv) for the Zibo, move it to the Zibo folder, start X-Plane 12, open X-Camera setting widget and start from my settings to create ours.\
     ![X-Camera](pictures/image-35.png)
 
+## Airframes
 
+this section is for real enthusiasts, or nerds if you prefer.\
+I created a Zibo config file and a Simbrief airframe for some aircrafts I tried to reproduce as realistically as possible using available information: cockpit and aircraft configuration, FMC options, ICAO FPL equipment definition, seat configuration and so on.\
+I obviously won't say they are perfect but there is some work behind, so probably worth sharing for the ones who would like to simulate routes using the aircraft usually flying them and learning all the differences between operators SOPs and configurations.
+
+Any informed and educated suggestion for improvement is very welcome.
+
+### how to use
+- [download the airframe](https://forums.x-plane.org/forums/topic/161060-zibo-331-compatible-liveries-737-and-739-lists-available/) from the list on Zibo forum or any other source. Most of the airframes in my list, if not all, are available on the web
+- install the livery in Zibo _liveries_ folder
+- download the config file associated to the livery and move it to the livery folder\
+![airframe](pictures/image-36.png)
+- click on the link to my Simbrief airframe definition, clone it (save in your list) and use it to create OFPs using that airframe\
+![simbrief](pictures/image-37.png)
+
+| Operator | REG | Model | Documents
+| --- | --- | ---| --- |
+| AEROITALIA | 9H-CRI | B737-85F | [config](files/airframes/9HCRI/b738x.cfg) \| [profile](https://dispatch.simbrief.com/airframes/share/462802_1697101524364) |
+| AIR ALGERIE | 7T-VKK | B737-8D6 | [config](files/airframes/7TVKK/b738x.cfg) \| [profile](https://dispatch.simbrief.com/airframes/share/462802_1687018682576) |
+| AIR EUROPA | EC-MPS | B737-85P | [config](files/airframes/ECMPS/b738x.cfg) \| [profile](https://dispatch.simbrief.com/airframes/share/462802_1711370735855) |
+| ALASKA | N589AS | B737-890 | [config](files/airframes/N589AS/b738x.cfg) \| [profile](https://dispatch.simbrief.com/airframes/share/462802_1644830186447) |
+| AMERICAN | N980AN | B737-823 | [config](files/airframes/N980AN/b738x.cfg) \| [profile](https://dispatch.simbrief.com/airframes/share/462802_1712097197473) |
+| CARIBBEAN | 9Y-TAB | B737-8Q8 | [config](files/airframes/9YTAB/b738x.cfg) \| [profile](https://dispatch.simbrief.com/airframes/share/462802_1621255562213) |
+| COPA | HP-1821CMP | B737-8V3 | [config](files/airframes/HP1821/b738x.cfg) \| [profile](https://dispatch.simbrief.com/airframes/share/462802_1649950311451) |
+| DELTA | N3765 | B737-832W |
+| EGYPTAIR | SU-GEH | B737-866WL |
+| ETHIOPIAN | ET-APK | B737-860 |
+| FLYBONDI | LV-KDR | B737-86N |
+| FLYDUBAI | A6-FEZ | B737-8KN |
+| GARUDA | PK-GFI | B737-86N |
+| GOL | PR-GGJ | B737-8EH |
+| GOL | PR-GUH | B737-8EH |
+| GOL | PR-GXP | B737-8EH |
+| GOL | PR-GXQ | B737-8EH |
+| GREATER BAY | B-KJA | B737-8JP |
+| JEJU AIR | HL8063 | B737-8AS |
+| JET2 | G-JZHV | B737-8MG |
+| KLASJET | LY-MGM | B737-8EH |
+| KLM | PH-BXW | B737-8K2 |
+| LOT | SP-LWA | B737-89P |
+| MALTA AIR | 9H-QCU | B737-8AS | [config](files/airframes/9HQCU/b738x.cfg) \| [profile](https://dispatch.simbrief.com/airframes/share/462802_1661953835455) |
+| NORWEGIAN AIR SHUTTLE | LN-NIE | B737-8JP |
+| NORWEGIAN AIR SWEDEN | SE-RRF | B737-8JP |
+| PEGASUS | TC-CRF | B737-82R |
+| QANTAS | VH-XZP | B737-838 |
+| ROYAL AIR MAROC | CN-RNZ | B737-8B6 |
+| RYANAIR | EI-DPH | B737-8AS | [config](files/airframes/EIDPH/b738x.cfg) \| [profile](https://dispatch.simbrief.com/airframes/share/462802_1747754625713) |
+| RYANAIR | EI-GXN | B737-8AS | [config](files/airframes/EIGXN/b738x.cfg) \| [profile](https://dispatch.simbrief.com/airframes/share/462802_1617481039934) |
+| RYANAIR BUZZ | SP-RKK | B737-8AS | [config](files/airframes/SPRKK/b738x.cfg) \| [profile](https://dispatch.simbrief.com/airframes/share/462802_1767610972574) |
+| RYANAIR UK | G-RUKA | B737-8AS | [config](files/airframes/GRUKA/b738x.cfg) \| [profile](https://dispatch.simbrief.com/airframes/share/462802_1767774427492) |
+| SAFAIR | ZS-SJS | B737-844 |
+| SINGAPORE | 9V-MGK | B737-8SA |
+| SKYUP | UR-SQF | B737-8H6 |
+| SMARTWINGS | OK-TVV | B737-86N |
+| SOUTHWEST | N8525S | B737-8H4 |
+| SPICEJET | VT-SXA | B737-85R |
+| SUNEXPRESS | TC-SNV | B737-86J |
+| TAROM | YR-BGM | B737-8H6 |
+| THAI LION AIR | HS-LUY | B737-8GP |
+| TRANSAVIA | PH-HXO | B737-8K2 |
+| TUIFLY | D-ATUK | B737-8K5 |
+| TURKISH | TC-JVH | B737-8F2 |
+| UNITED | N33286 | B737-824 |
+| WESTJET | C-GWRG | B737-8CT |
+| WINGO | HP-1523CMP | B737-8V3 |
