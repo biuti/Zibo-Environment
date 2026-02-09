@@ -281,8 +281,8 @@ Any informed and educated suggestion for improvement is very welcome.
 | LOT | SP-LWA | B737-89P |
 | MALTA AIR | 9H-QCU | B737-8AS | [config](files/airframes/9HQCU/b738x.cfg) \| [profile](https://dispatch.simbrief.com/airframes/share/462802_1661953835455) |
 | MALTA AIR | 9H-QEM | B737-8AS | [config](files/airframes/9HQEM/b738x.cfg) \| [profile](https://dispatch.simbrief.com/airframes/share/462802_1617016683208) |
-| NORWEGIAN AIR SHUTTLE | LN-NIE | B737-8JP |
-| NORWEGIAN AIR SWEDEN | SE-RRF | B737-8JP |
+| NORWEGIAN AIR SHUTTLE | LN-ENP | B737-8JP | [config](files/airframes/LNENP/b738x.cfg) \| [profile](https://dispatch.simbrief.com/airframes/share/462802_1770593497871) |
+| NORWEGIAN AIR SWEDEN | SE-RRF | B737-8JP | [config](files/airframes/SERRF/b738x.cfg) \| [profile](https://dispatch.simbrief.com/airframes/share/462802_1640177661259) |
 | PEGASUS | TC-CRF | B737-82R |
 | QANTAS | VH-XZP | B737-838 |
 | ROYAL AIR MAROC | CN-RNZ | B737-8B6 |
