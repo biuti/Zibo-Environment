@@ -143,7 +143,15 @@ This are the packets we need to download to create the perfect (in my opinion) e
 ***
 ## Mandatory plugins
 
-7. ### Terrain Radar
+7. ### 737 Simple OPT
+    this is the Performance Calculator that is integrated with Zibo EFB (version 4.05.32 and above), realized using real data
+
+    - [download the latest version](https://737opt.brozek.org/#download) of the plugin from the website. You'll need both _Core_ and _GUI_ packets
+    - unzip the archive and move the _737simpleOPT_gui_ and _737simpleOPT_plugin_ folders in XP12 _plugins_ folder.
+
+    ![V737 Simple OPT](pictures/image-38.png)
+
+8. ### Terrain Radar
     This plugin adds two features you don\'t want to miss:
 
     - a synthetic terrain radar, based on geodata
@@ -156,7 +164,7 @@ This are the packets we need to download to create the perfect (in my opinion) e
 
         ![Terrain Radar](pictures/image-21.png)
 
-8. ### X-RAAS2
+9. ### X-RAAS2
     this plugin add the RAAS functionality
 
     - [download the latest version](https://github.com/olivierbutler/X-RAAS2-xp12/releases) of the plugin
@@ -170,7 +178,7 @@ This are the packets we need to download to create the perfect (in my opinion) e
 
         move both files to XP12 _Output/preferences_ folder
 
-9. ### Better Pushback Mod
+10. ### Better Pushback Mod
     this plugin simulates pushback procedures, with ground to cockpit comunications, animations, and many different configurations.
 
     ![alt text](pictures/image-26.png)
@@ -187,7 +195,7 @@ This are the packets we need to download to create the perfect (in my opinion) e
 
         ![BetterPushbackMod settings](pictures/image-25.png)
 
-10. ### AviTab
+11. ### AviTab
     another must have, AviTab is fully integrated in Zibo EFB, and gives a lot of information about airports, procedures, charts, it is able to display pdf files in the EFB.
 
     ![AviTab](pictures/image-28.png)
@@ -200,7 +208,7 @@ This are the packets we need to download to create the perfect (in my opinion) e
 ***
 ## Optional plugins
 
-11. ### AutoDGS
+12. ### AutoDGS
     a very nice to have, adds marshallers at stands and gates, or the safedock T2 monitor if jetway is available.\
     It can also be customized to reflect exactly what's available at each stand.
 
@@ -209,7 +217,7 @@ This are the packets we need to download to create the perfect (in my opinion) e
     - [download the latest version](https://github.com/hotbso/AutoDGS/releases) of the plugin
     - unzip the archive and move _AviTab_ folder in _plugins_ folder
 
-12. ### HeadShake
+13. ### HeadShake
     This plugin adds in my opinion a lot of immersion, moves the POV using forces, aircraft attitude and / or natural unconscious head movement to keep the horizon.
 
     ![HeadShake](pictures/image-31.png)
@@ -225,7 +233,7 @@ This are the packets we need to download to create the perfect (in my opinion) e
 
     ![HeadShake settings](pictures/image-33.png)
 
-13. ### X-Camera
+14. ### X-Camera
     another great add-on, I know most of the features could be achieved also using built-in XP12 camera features, but I find much easier to configure and a lot more integrated with my setup, for example HeadShake.
     It permits to have Fixed cameras without G-Force or HeadShake effects, fixed zoom values, seamless transition effects.
 
@@ -261,6 +269,7 @@ Any informed and educated suggestion for improvement is very welcome.
 | AIR EUROPA | EC-MPS | B737-85P | [config](files/airframes/ECMPS/b738x.cfg) \| [profile](https://dispatch.simbrief.com/airframes/share/462802_1711370735855) |
 | ALASKA | N589AS | B737-890 | [config](files/airframes/N589AS/b738x.cfg) \| [profile](https://dispatch.simbrief.com/airframes/share/462802_1644830186447) |
 | AMERICAN | N980AN | B737-823 | [config](files/airframes/N980AN/b738x.cfg) \| [profile](https://dispatch.simbrief.com/airframes/share/462802_1712097197473) |
+| BOLIVIANA | CP-3215 | B737-85R | [config](files/airframes/CP3215/b738x.cfg) \| [profile](https://dispatch.simbrief.com/airframes/share/462802_1776077620092) |
 | CARIBBEAN | 9Y-TAB | B737-8Q8 | [config](files/airframes/9YTAB/b738x.cfg) \| [profile](https://dispatch.simbrief.com/airframes/share/462802_1621255562213) |
 | COPA | HP-1821CMP | B737-8V3 | [config](files/airframes/HP1821/b738x.cfg) \| [profile](https://dispatch.simbrief.com/airframes/share/462802_1649950311451) |
 | DELTA | N3765 | B737-832W |
