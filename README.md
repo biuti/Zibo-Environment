@@ -308,7 +308,8 @@ Any informed and educated suggestion for improvement is very welcome.
 | SUNEXPRESS | TC-SNV | B737-86J |
 | TAROM | YR-BGM | B737-8H6 |
 | THAI LION AIR | HS-LUY | B737-8GP |
-| TRANSAVIA | PH-HXO | B737-8K2 |
+| TRANSAVIA | PH-HSI | B737-8K2 | [config](files/airframes/PHHSI/b738x.cfg) \| [profile](https://dispatch.simbrief.com/airframes/share/462802_1786969694985) |
+| TRANSAVIA FRANCE | F-HTVE | B737-8K2 | [config](files/airframes/FHTVE/b738x.cfg) \| [profile](https://dispatch.simbrief.com/airframes/share/462802_1786970215770) |
 | TUIFLY | D-ATUK | B737-8K5 |
 | TURKISH | TC-JVH | B737-8F2 |
 | UNITED | N33286 | B737-824 |
